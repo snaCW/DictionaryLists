@@ -31,9 +31,28 @@ Value2-1,Value2-2,Value2-3
 ]
 ```
 
-- Excel
+- Excel:
 
 | Key1     | Key2     | Key3     |
 | -------- | -------- | -------- |
 | Value1-1 | Value1-2 | Value1-3 |
 | Value2-1 | Value2-2 | Value2-3 |
+
+- C#:
+```
+List<Dictionary<string, string>> database = 
+[
+    new Dictionary<string, string>()
+    {
+        {"Key1", "Value1-1"},
+        {"Key2", "Value1-2"},
+        {"Key3", "Value1-3"}
+    },
+    new Dictionary<string, string>()
+    {
+        {"Key1", "Value2-1"},
+        {"Key2", "Value2-2"},
+        {"Key3", "Value2-3"}
+    }
+]
+```
